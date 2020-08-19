@@ -1,0 +1,166 @@
+#game{
+
+    position: relative;
+    width:100%;
+    height: 600px;
+    background-color: skyblue;
+    background-image: url('../images/sky.png');
+    color:red;
+    background-position-x: 0;
+
+}
+
+
+
+.brid{
+
+    position: absolute;
+    left: 50%;
+    top:235px;
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    background-image: url('../images/birds.png');
+    
+}
+
+.start{
+
+    position: absolute;
+    left:50%;
+    margin-left: -100px;
+    top:295px;
+    width: 200px;
+    height: 60px;
+    background-color: pink;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+.start.start-white{
+
+    color:#fff;
+    font-size:24px;
+}
+
+.start.start-blue{
+
+    color:skyblue;
+    font-size:36px;
+    
+}
+
+.score{
+
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:20px;
+    font-weight: bolder;
+    color:#fff;
+}
+
+.mask{
+
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+
+    opacity: .7;
+    background-color:black;
+}
+
+
+.end{
+
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:70px;
+
+    text-align:center;
+}
+
+.end .over{
+
+    font-size:36px;
+    font-weight: bolder;
+    color:red;
+
+}
+
+.end .resuluts,
+.end .final-score{
+
+    margin-top:20px;
+    color:#ff0;
+    font-size:20px;
+    font-weight:bold;
+
+}
+/* 排行榜列表 */
+.end .rank-list{
+
+    margin-top:20px;
+    color:#09f;
+
+}
+
+/* 排行榜列表项 */
+.end .rank-item{
+
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size:14px;
+}
+
+.end .rank-degree{
+
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    margin-right: 10px;
+    color:#fff;
+    background-color:#8eb9f5;
+    font-size:12px;
+}
+
+
+
+.end .rank-degree.first{
+
+    background-color:#f54545;
+}
+
+.end .rank-degree.second{
+
+    background-color:orange;
+}
+
+.end .rank-degree.third{
+
+    background-color: #ffac38;
+}
+
+
+.end .rank-score{
+
+    display: inline-block;
+    width: 30px;
+
+}
+
+.end  .restart{
+
+    color:#09f;
+    font-size:18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
